@@ -102,6 +102,10 @@ header nav ul li a:hover {
   text-align: center;
 }
 
+.copy-r {
+  align-items: center;
+}
+
 header nav {
   padding: 5px;
 }
@@ -146,6 +150,29 @@ header nav ul li a:hover {
 h1 {
   font-family: "Source Sans Pro", sans-serif;
   color: #9A1436;
+}
+
+.boton, .boton-terciario, .boton-secundario, .boton-primario {
+  width: 50px;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #9A1436;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.boton-primario {
+  background-color: #9A1436;
+  color: #F5E5F0;
+  border: 1px solid black;
+}
+
+.boton-secundario {
+  background-color: #9A1436;
+  color: #F5E5F0;
+  border: 1px solid #9A9A9A;
 }
 
 .scale {

@@ -12,3 +12,36 @@
   @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
 h1{font-family: 'Source Sans Pro', sans-serif;
 color: $colorTerciario;}
+
+//EXTEND
+
+.boton{
+    width: 50px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color:$colorTerciario;
+    border-radius:10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+//BOTON PRIMARIO, SECUNDARIO Y TERCIARIO
+
+@each $contexto in primario, secundario, terciario{
+    .boton-#{$contexto}{
+        @extend .boton;
+    }
+}
+
+.boton-primario{
+    background-color: $colorTerciario;
+    color: $colorSecundario;
+    border: 1px solid black;
+}
+.boton-secundario{
+    background-color: $colorTerciario;
+    color: $colorSecundario;
+    border: 1px solid $colorPrincipal;
+    
+}
