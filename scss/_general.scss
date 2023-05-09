@@ -1,6 +1,10 @@
 //GENERAL
-a{
-    color: $colorTerciario;
-    text-decoration: none;
+.bg-princiapl{background-color: $colorPrincipal;}
+.p20{padding: 20px;}
+.m20{margin:20px}
+.txt-center{text-align: center;}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
 }
-ul{list-style-type: none;}
