@@ -1,3 +1,42 @@
-
+@media (min-width: 1024px) {
+  .GridIndex {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+  .GridMainIndex {
+    display: grid;
+    grid-template-areas: "imgencabezado imgencabezado imgencabezado imgencabezado" "titulo titulo titulo titulo" "img1 img2 img3 img4" "subtitulo subtitulo subtitulo subtitulo" "formularioIndex formularioIndex mapa mapa";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+  }
+  .imgencabezado {
+    grid-area: imgencabezado;
+  }
+  .titulo {
+    grid-area: titulo;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img4 {
+    grid-area: img4;
+  }
+  .subtitulo {
+    grid-area: subtitulo;
+  }
+  .formularioIndex {
+    grid-area: formularioIndex;
+  }
+  .mapa {
+    grid-area: mapa;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
