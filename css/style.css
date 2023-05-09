@@ -76,6 +76,21 @@ header nav ul li a:hover {
   align-self: stretch;
 }
 
+.copy-r {
+  align-self: flex-end;
+  color: white;
+}
+
+.contacto a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.contacto a:hover {
+  transition: all 1s;
+  color: #9A1436;
+}
+
 @media (max-width: 786px) {
   header, main, footer {
     display: flex;

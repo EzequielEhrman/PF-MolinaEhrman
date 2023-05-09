@@ -57,5 +57,22 @@ header{
         }
     }
 }
+//VARIOS
 .formularioIndex{justify-self: center;}
 .mapa{align-self: stretch;}
+.copy-r{align-self: flex-end;
+color: white;}
+.contacto{
+    a{
+    text-decoration: none;
+    list-style-type: none; 
+    color: white;
+    &:hover{
+        transition: all 1s;
+        color: $colorTerciario;
+    }
+    }
+
+   
+    
+}
