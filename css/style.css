@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap");
 @media (min-width: 1024px) {
   .GridIndex {
     display: grid;
@@ -67,6 +68,14 @@ header nav ul li a:hover {
   color: #9A9A9A;
 }
 
+.formularioIndex {
+  justify-self: center;
+}
+
+.mapa {
+  align-self: stretch;
+}
+
 @media (max-width: 786px) {
   header, main, footer {
     display: flex;
@@ -117,6 +126,11 @@ header nav ul li a:hover {
 .subtitulo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #9A1436;
 }
 
 .scale {
