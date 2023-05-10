@@ -98,12 +98,8 @@ header nav ul li a:hover {
     align-items: center;
   }
 }
-.subtitulo {
+.subtitulo, .img1, .img2, .img3, .img4, .copy-r {
   text-align: center;
-}
-
-.copy-r {
-  align-items: center;
 }
 
 header nav {
