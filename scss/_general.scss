@@ -30,7 +30,7 @@ color: $colorTerciario;}
     margin: 10px;
 }
 
-//BOTON PRIMARIO, SECUNDARIO Y TERCIARIO
+//BOTON PRIMARIO Y SECUNDARIO
 
 @each $contexto in primario, secundario, terciario{
     .boton-#{$contexto}{
